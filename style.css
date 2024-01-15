@@ -20,42 +20,15 @@ ul.navbar {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        width: 100vw;
-        background: none;
+        width: 100%;
+        background: #212121;
 
 }
 
-a.navbar {
-
-        text-decoration: none;
-        display: block;
-        padding: 14px 16px;
-        text-align: center;
-
+li.right a{
+        float: right !important;
 }
 
-li.right {
-        float: right;
-}
-
-li.left {
-        float: left;
-}
-
-a:link,
-a:visited,
-a:active {
-
-        font-size: .850rem;
-        color: #FFFFFF;
-        text-decoration: none;
-        transition: 250ms linear;
-
-}
-
-a.navbar:hover {
-        text-decoration: 2px underline;
-        text-shadow: 1px 1px 2px #212144, 0 0 1em #FFFFFF, 0 0 0.2em #FFFFFF;
-        transition: 250ms linear;
-
+li.left a{
+        float: left !important;
 }
